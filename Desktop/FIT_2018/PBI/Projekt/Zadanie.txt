@@ -1,0 +1,32 @@
+Za pomoci programu Pymol pro vizualizaci proteinù, s pøípadnou pomocí jazyku Python a API pro nìj v Pymolu øešte následující úkol:
+
+Libovolnou sadu proteinovıch struktur z PDB analyzujte pomocí vytvoøeného programu tak, aby jste na vybraném proteinu P z této sady vizualizovali lokální 
+podobnost tohoto proteinu k ostatním. 
+
+Pro kadou aminokyselinu proteinu P zjistìte pozice ve struktuøe sousedících aminokyselin do urèité (volitelné) vzdálenosti. 
+Staèí pokud budete pracovat s C-alfa uhlíkem a jako referenci pouijete napø. rovinu atomù C-alfa, C a N z kostry proteinu. 
+Danou aminokyselinu pak ohodnote na základì toho, jak moc a kolik podobnıch strukturních konfigurací existuje v dalších proteinech sady. 
+Do hodnocení podobnosti promítnìte pozice C-alfa okolitıch aminokyselin a jejich identitu nebo chemickou povahu nejlépe dle podobnostní matice 
+BLOSUM63 a poèet nalezenıch konfigurací nad urèitım prahem. Tuto hodnotu pak vizualizujte na struktuøe proteinu P, 
+kterı tak zùstane obarven nebo jinak zvıraznìn, a to nejvíce v místech s vysokou lokální strukturní podobností k jinım proteinùm sady.
+
+
+
+
+Input: sada proteinovych strkutur
+
+Proces:
+  vyberieme jeden protein P zo sady a porovname voci ostatnym
+  1. Pro kadou aminokyselinu proteinu P zjistìte pozice ve struktuøe sousedících aminokyselin do urèité (volitelné) vzdálenosti. 
+     Staèí pokud budete pracovat s C-alfa uhlíkem a jako referenci pouijete napø. rovinu atomù C-alfa, C a N z kostry proteinu. 
+
+
+
+
+
+
+
+
+
+
+Atom - ftp://ftp.wwpdb.org/pub/pdb/doc/format_descriptions/Format_v33_Letter.pdf
