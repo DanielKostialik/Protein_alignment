@@ -12,6 +12,51 @@ který tak zùstane obarven nebo jinak zvýraznìn, a to nejvíce v místech s vysokou
 
 
 
---------------------- My links
+
+Input: sada proteinovych strkutur
+
+Proces:
+  vyberieme jeden protein P zo sady a porovname voci ostatnym
+  1. Pro každou aminokyselinu proteinu P zjistìte pozice ve struktuøe sousedících aminokyselin do urèité (volitelné) vzdálenosti. 
+     Staèí pokud budete pracovat s C-alfa uhlíkem a jako referenci použijete napø. rovinu atomù C-alfa, C a N z kostry proteinu. 
+
+
+
+
+
+
+
+
+
 
 Atom - ftp://ftp.wwpdb.org/pub/pdb/doc/format_descriptions/Format_v33_Letter.pdf
+
+
+0.959531247616
+805
+0
+0.959531247616
+805
+474.0
+97
+
+
+1.65029120445
+16
+0
+1.65029120445
+16
+9.0
+3
+
+
+
+
+
+
+
+
+
+
+
+
